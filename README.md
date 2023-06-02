@@ -7,12 +7,14 @@ First time working with Jetpack Compose, coroutines and some of the used framwor
 - No requirement to continue loading data if app backgrounded.
 - No requirements to support specific Android API versions, different countries/languages, screen sizes.
 - No search/voice search button needed as in the example UI of the case.
+- Search is case insensitive works with upper & lower case)
 
 ## Some bugs/issues/improvement areas (I’m aware of and would fix if there was more time):
 - List could be more user friendly, for ex. enable jumping to sections by letter
 - Keyboard has to be dismissed manually (as there’s no search button)
 - UI is simple and ugly
 - Animations
+- More advanced search - with sorting/filtering & capability to search similar to regular expressions 
 - If user types before data is loaded, the full word list is shown when loaded, and the search result is displayed as soon as user types again
 - Forgot to add empty line EOF in some files
 - Is there any search/filter algoritm with better performance?
